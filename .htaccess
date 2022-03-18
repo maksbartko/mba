@@ -1,0 +1,390 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page19652222.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^skogur-reception$ page19663887.html [NC]
+RewriteRule ^skogur-reception/$ page19663887.html [NC]
+
+RewriteRule ^interior$ page19062359.html [NC]
+RewriteRule ^interior/$ page19062359.html [NC]
+
+RewriteRule ^footer$ page19057273.html [NC]
+RewriteRule ^footer/$ page19057273.html [NC]
+
+RewriteRule ^reception-skogur-98-05$ page19663501.html [NC]
+RewriteRule ^reception-skogur-98-05/$ page19663501.html [NC]
+
+RewriteRule ^courses$ page19166107.html [NC]
+RewriteRule ^courses/$ page19166107.html [NC]
+
+RewriteRule ^2-room-apartment-65$ page23097768.html [NC]
+RewriteRule ^2-room-apartment-65/$ page23097768.html [NC]
+
+RewriteRule ^private-house-247-19$ page19663340.html [NC]
+RewriteRule ^private-house-247-19/$ page19663340.html [NC]
+
+RewriteRule ^private-house-86$ page19756566.html [NC]
+RewriteRule ^private-house-86/$ page19756566.html [NC]
+
+RewriteRule ^about-us$ page19057966.html [NC]
+RewriteRule ^about-us/$ page19057966.html [NC]
+
+RewriteRule ^1-room-apartment-50$ page22701117.html [NC]
+RewriteRule ^1-room-apartment-50/$ page22701117.html [NC]
+
+RewriteRule ^private-house-111$ page19757615.html [NC]
+RewriteRule ^private-house-111/$ page19757615.html [NC]
+
+RewriteRule ^header$ page19060399.html [NC]
+RewriteRule ^header/$ page19060399.html [NC]
+
+RewriteRule ^3-room-apartment-110$ page23098564.html [NC]
+RewriteRule ^3-room-apartment-110/$ page23098564.html [NC]
+
+RewriteRule ^1-room-apartment-45$ page23097975.html [NC]
+RewriteRule ^1-room-apartment-45/$ page23097975.html [NC]
+
+RewriteRule ^private-house-480$ page19757763.html [NC]
+RewriteRule ^private-house-480/$ page19757763.html [NC]
+
+RewriteRule ^cottage-108$ page22271036.html [NC]
+RewriteRule ^cottage-108/$ page22271036.html [NC]
+
+RewriteRule ^private-house-328$ page19758240.html [NC]
+RewriteRule ^private-house-328/$ page19758240.html [NC]
+
+RewriteRule ^3-room-apartment-160$ page21919013.html [NC]
+RewriteRule ^3-room-apartment-160/$ page21919013.html [NC]
+
+RewriteRule ^architecture$ page19161303.html [NC]
+RewriteRule ^architecture/$ page19161303.html [NC]
+
+RewriteRule ^house-for-rest$ page19758321.html [NC]
+RewriteRule ^house-for-rest/$ page19758321.html [NC]
+
+RewriteRule ^private-house-180$ page19758360.html [NC]
+RewriteRule ^private-house-180/$ page19758360.html [NC]
+
+RewriteRule ^interior-commercial$ page19161692.html [NC]
+RewriteRule ^interior-commercial/$ page19161692.html [NC]
+
+RewriteRule ^private-house-101$ page23413898.html [NC]
+RewriteRule ^private-house-101/$ page23413898.html [NC]
+
+RewriteRule ^private-house-120$ page19758906.html [NC]
+RewriteRule ^private-house-120/$ page19758906.html [NC]
+
+RewriteRule ^2nd-room-apartment-62-75$ page19127145.html [NC]
+RewriteRule ^2nd-room-apartment-62-75/$ page19127145.html [NC]
+
+RewriteRule ^architecture-commercial$ page19162020.html [NC]
+RewriteRule ^architecture-commercial/$ page19162020.html [NC]
+
+RewriteRule ^penthouse-117-92$ page19595574.html [NC]
+RewriteRule ^penthouse-117-92/$ page19595574.html [NC]
+
+RewriteRule ^private-house-165$ page19758975.html [NC]
+RewriteRule ^private-house-165/$ page19758975.html [NC]
+
+RewriteRule ^policy$ page19163029.html [NC]
+RewriteRule ^policy/$ page19163029.html [NC]
+
+RewriteRule ^3dkursy-if$ page19205519.html [NC]
+RewriteRule ^3dkursy-if/$ page19205519.html [NC]
+
+RewriteRule ^private-house-22992$ page19759299.html [NC]
+RewriteRule ^private-house-22992/$ page19759299.html [NC]
+
+RewriteRule ^3-room-apartment-71-45$ page19492330.html [NC]
+RewriteRule ^3-room-apartment-71-45/$ page19492330.html [NC]
+
+RewriteRule ^3dkursy-lviv$ page19322199.html [NC]
+RewriteRule ^3dkursy-lviv/$ page19322199.html [NC]
+
+RewriteRule ^kitchen-studio-71-96$ page19493767.html [NC]
+RewriteRule ^kitchen-studio-71-96/$ page19493767.html [NC]
+
+RewriteRule ^altanka$ page19759067.html [NC]
+RewriteRule ^altanka/$ page19759067.html [NC]
+
+RewriteRule ^three-room-apartment-100$ page19569178.html [NC]
+RewriteRule ^three-room-apartment-100/$ page19569178.html [NC]
+
+RewriteRule ^terasa-20$ page19759246.html [NC]
+RewriteRule ^terasa-20/$ page19759246.html [NC]
+
+RewriteRule ^3dkursy-archicad$ page19323830.html [NC]
+RewriteRule ^3dkursy-archicad/$ page19323830.html [NC]
+
+RewriteRule ^1-room-apartment-49-71$ page19570336.html [NC]
+RewriteRule ^1-room-apartment-49-71/$ page19570336.html [NC]
+
+RewriteRule ^two-room-apartment-68-2$ page19571046.html [NC]
+RewriteRule ^two-room-apartment-68-2/$ page19571046.html [NC]
+
+RewriteRule ^3dkursy-sketchup$ page19356525.html [NC]
+RewriteRule ^3dkursy-sketchup/$ page19356525.html [NC]
+
+RewriteRule ^1-room-apartment-51-74$ page19571765.html [NC]
+RewriteRule ^1-room-apartment-51-74/$ page19571765.html [NC]
+
+RewriteRule ^videokurs-archicad-sketchup-lumion$ page19367819.html [NC]
+RewriteRule ^videokurs-archicad-sketchup-lumion/$ page19367819.html [NC]
+
+RewriteRule ^3-room-apartment-79-54$ page19573076.html [NC]
+RewriteRule ^3-room-apartment-79-54/$ page19573076.html [NC]
+
+RewriteRule ^design-calculator$ page19443317.html [NC]
+RewriteRule ^design-calculator/$ page19443317.html [NC]
+
+RewriteRule ^4-room-apartment-116-21$ page19574956.html [NC]
+RewriteRule ^4-room-apartment-116-21/$ page19574956.html [NC]
+
+RewriteRule ^two-room-apartment-71-45$ page19576618.html [NC]
+RewriteRule ^two-room-apartment-71-45/$ page19576618.html [NC]
+
+RewriteRule ^three-room-apartment-150-39$ page19578343.html [NC]
+RewriteRule ^three-room-apartment-150-39/$ page19578343.html [NC]
+
+RewriteRule ^4-room-apartment-89-87$ page19579255.html [NC]
+RewriteRule ^4-room-apartment-89-87/$ page19579255.html [NC]
+
+RewriteRule ^three-room-apartment-74-87$ page19580407.html [NC]
+RewriteRule ^three-room-apartment-74-87/$ page19580407.html [NC]
+
+RewriteRule ^two-room-apartment-62-34$ page19580760.html [NC]
+RewriteRule ^two-room-apartment-62-34/$ page19580760.html [NC]
+
+RewriteRule ^2-room-apartment-58-53$ page19594714.html [NC]
+RewriteRule ^2-room-apartment-58-53/$ page19594714.html [NC]
+
+RewriteRule ^3-room-apartment-90$ page19597002.html [NC]
+RewriteRule ^3-room-apartment-90/$ page19597002.html [NC]
+
+RewriteRule ^three-room-apartment-92$ page19598697.html [NC]
+RewriteRule ^three-room-apartment-92/$ page19598697.html [NC]
+
+RewriteRule ^3-room-apartment-90-55$ page19599100.html [NC]
+RewriteRule ^3-room-apartment-90-55/$ page19599100.html [NC]
+
+RewriteRule ^private-house-330$ page19676547.html [NC]
+RewriteRule ^private-house-330/$ page19676547.html [NC]
+
+RewriteRule ^3-room-apartment-89-42$ page19912321.html [NC]
+RewriteRule ^3-room-apartment-89-42/$ page19912321.html [NC]
+
+RewriteRule ^private-house-229$ page19912830.html [NC]
+RewriteRule ^private-house-229/$ page19912830.html [NC]
+
+RewriteRule ^private-house-142$ page19913848.html [NC]
+RewriteRule ^private-house-142/$ page19913848.html [NC]
+
+RewriteRule ^3-room-apartment-80$ page19960065.html [NC]
+RewriteRule ^3-room-apartment-80/$ page19960065.html [NC]
+
+RewriteRule ^1-room-apartment-55$ page20114582.html [NC]
+RewriteRule ^1-room-apartment-55/$ page20114582.html [NC]
+
+RewriteRule ^private-house-180-2$ page20114720.html [NC]
+RewriteRule ^private-house-180-2/$ page20114720.html [NC]
+
+RewriteRule ^private-house-172$ page20383279.html [NC]
+RewriteRule ^private-house-172/$ page20383279.html [NC]
+
+RewriteRule ^room-studio-65$ page20659807.html [NC]
+RewriteRule ^room-studio-65/$ page20659807.html [NC]
+
+RewriteRule ^main-page$ page19652222.html [NC]
+RewriteRule ^main-page/$ page19652222.html [NC]
+
+RewriteRule ^comics-cafe$ page19733517.html [NC]
+RewriteRule ^comics-cafe/$ page19733517.html [NC]
+
+RewriteRule ^ooh-la-la-shop$ page19734425.html [NC]
+RewriteRule ^ooh-la-la-shop/$ page19734425.html [NC]
+
+RewriteRule ^sauna-gogodz-chalet-resort$ page19734777.html [NC]
+RewriteRule ^sauna-gogodz-chalet-resort/$ page19734777.html [NC]
+
+RewriteRule ^hosteria-jam$ page19738110.html [NC]
+RewriteRule ^hosteria-jam/$ page19738110.html [NC]
+
+RewriteRule ^barbershop-ptah$ page19740570.html [NC]
+RewriteRule ^barbershop-ptah/$ page19740570.html [NC]
+
+RewriteRule ^restoran-sold-pepper$ page19741055.html [NC]
+RewriteRule ^restoran-sold-pepper/$ page19741055.html [NC]
+
+RewriteRule ^recovery-clinic$ page19741285.html [NC]
+RewriteRule ^recovery-clinic/$ page19741285.html [NC]
+
+RewriteRule ^mamyn-hlib$ page19742079.html [NC]
+RewriteRule ^mamyn-hlib/$ page19742079.html [NC]
+
+RewriteRule ^rees-lounge-bar$ page19742395.html [NC]
+RewriteRule ^rees-lounge-bar/$ page19742395.html [NC]
+
+RewriteRule ^restoran$ page19760357.html [NC]
+RewriteRule ^restoran/$ page19760357.html [NC]
+
+RewriteRule ^cooper-head$ page19760415.html [NC]
+RewriteRule ^cooper-head/$ page19760415.html [NC]
+
+RewriteRule ^gogodz-chalet-resort$ page19760483.html [NC]
+RewriteRule ^gogodz-chalet-resort/$ page19760483.html [NC]
+
+RewriteRule ^altanka-70$ page19761659.html [NC]
+RewriteRule ^altanka-70/$ page19761659.html [NC]
+
+RewriteRule ^family-clinic$ page19762839.html [NC]
+RewriteRule ^family-clinic/$ page19762839.html [NC]
+
+RewriteRule ^stomatolohiya-vds$ page19762989.html [NC]
+RewriteRule ^stomatolohiya-vds/$ page19762989.html [NC]
+
+RewriteRule ^dobryj-shop$ page19763148.html [NC]
+RewriteRule ^dobryj-shop/$ page19763148.html [NC]
+
+RewriteRule ^vita-dent-clinic$ page19767601.html [NC]
+RewriteRule ^vita-dent-clinic/$ page19767601.html [NC]
+
+RewriteRule ^vabi-sabi$ page19767725.html [NC]
+RewriteRule ^vabi-sabi/$ page19767725.html [NC]
+
+RewriteRule ^restoran-sakura$ page19767804.html [NC]
+RewriteRule ^restoran-sakura/$ page19767804.html [NC]
+
+RewriteRule ^rubin-apartment$ page19768585.html [NC]
+RewriteRule ^rubin-apartment/$ page19768585.html [NC]
+
+RewriteRule ^bau-comfort$ page19768693.html [NC]
+RewriteRule ^bau-comfort/$ page19768693.html [NC]
+
+RewriteRule ^koroleva-gora$ page19768929.html [NC]
+RewriteRule ^koroleva-gora/$ page19768929.html [NC]
+
+RewriteRule ^bud-pid-klych$ page19809807.html [NC]
+RewriteRule ^bud-pid-klych/$ page19809807.html [NC]
+
+RewriteRule ^bau-comfort-concept$ page19820693.html [NC]
+RewriteRule ^bau-comfort-concept/$ page19820693.html [NC]
+
+RewriteRule ^restoran-bayka$ page19915470.html [NC]
+RewriteRule ^restoran-bayka/$ page19915470.html [NC]
+
+RewriteRule ^privat-house-63-79$ page19916251.html [NC]
+RewriteRule ^privat-house-63-79/$ page19916251.html [NC]
+
+RewriteRule ^private-house-163$ page19916449.html [NC]
+RewriteRule ^private-house-163/$ page19916449.html [NC]
+
+RewriteRule ^private-house-151$ page19916581.html [NC]
+RewriteRule ^private-house-151/$ page19916581.html [NC]
+
+RewriteRule ^private-house-156$ page19916745.html [NC]
+RewriteRule ^private-house-156/$ page19916745.html [NC]
+
+RewriteRule ^privat-house-223$ page19916842.html [NC]
+RewriteRule ^privat-house-223/$ page19916842.html [NC]
+
+RewriteRule ^quiz-home$ page20187667.html [NC]
+RewriteRule ^quiz-home/$ page20187667.html [NC]
+
+RewriteRule ^3dkursy-online$ page20570193.html [NC]
+RewriteRule ^3dkursy-online/$ page20570193.html [NC]
+
+RewriteRule ^quiz3$ page20611289.html [NC]
+RewriteRule ^quiz3/$ page20611289.html [NC]
+
+RewriteRule ^bar-cakes-bubbles-53-04$ page20660455.html [NC]
+RewriteRule ^bar-cakes-bubbles-53-04/$ page20660455.html [NC]
+
+RewriteRule ^stories-aesthetic-clinic$ page20661415.html [NC]
+RewriteRule ^stories-aesthetic-clinic/$ page20661415.html [NC]
+
+RewriteRule ^private-house-210$ page21049165.html [NC]
+RewriteRule ^private-house-210/$ page21049165.html [NC]
+
+RewriteRule ^private-house-160$ page21049288.html [NC]
+RewriteRule ^private-house-160/$ page21049288.html [NC]
+
+RewriteRule ^townhouse-120$ page21049350.html [NC]
+RewriteRule ^townhouse-120/$ page21049350.html [NC]
+
+RewriteRule ^private-house-185$ page21049412.html [NC]
+RewriteRule ^private-house-185/$ page21049412.html [NC]
+
+RewriteRule ^private-house-150$ page21049444.html [NC]
+RewriteRule ^private-house-150/$ page21049444.html [NC]
+
+RewriteRule ^private-house-300$ page21049477.html [NC]
+RewriteRule ^private-house-300/$ page21049477.html [NC]
+
+RewriteRule ^private-house-184$ page21049543.html [NC]
+RewriteRule ^private-house-184/$ page21049543.html [NC]
+
+RewriteRule ^private-house-170$ page21049559.html [NC]
+RewriteRule ^private-house-170/$ page21049559.html [NC]
+
+RewriteRule ^shop-made-in-eu$ page21049975.html [NC]
+RewriteRule ^shop-made-in-eu/$ page21049975.html [NC]
+
+RewriteRule ^resortchalet$ page21050002.html [NC]
+RewriteRule ^resortchalet/$ page21050002.html [NC]
+
+RewriteRule ^country-house$ page21050111.html [NC]
+RewriteRule ^country-house/$ page21050111.html [NC]
+
+RewriteRule ^3d-floor-plan$ page21211810.html [NC]
+RewriteRule ^3d-floor-plan/$ page21211810.html [NC]
+
+RewriteRule ^salon-kyiv$ page21638105.html [NC]
+RewriteRule ^salon-kyiv/$ page21638105.html [NC]
+
+RewriteRule ^stomat-efect$ page21641883.html [NC]
+RewriteRule ^stomat-efect/$ page21641883.html [NC]
+
+RewriteRule ^private-house-170-1$ page22223657.html [NC]
+RewriteRule ^private-house-170-1/$ page22223657.html [NC]
+
+RewriteRule ^cottage-poland$ page22223999.html [NC]
+RewriteRule ^cottage-poland/$ page22223999.html [NC]
+
+RewriteRule ^3dkursy-interior$ page22562033.html [NC]
+RewriteRule ^3dkursy-interior/$ page22562033.html [NC]
+
+RewriteRule ^private-house-284-45$ page23700107.html [NC]
+RewriteRule ^private-house-284-45/$ page23700107.html [NC]
+
+RewriteRule ^private-house-180-3$ page24318070.html [NC]
+RewriteRule ^private-house-180-3/$ page24318070.html [NC]
+
+RewriteRule ^townhouse-130$ page24318328.html [NC]
+RewriteRule ^townhouse-130/$ page24318328.html [NC]
+
+RewriteRule ^2-room-apartment-78$ page24318698.html [NC]
+RewriteRule ^2-room-apartment-78/$ page24318698.html [NC]
+
+RewriteRule ^1-room-apartment-49$ page24319599.html [NC]
+RewriteRule ^1-room-apartment-49/$ page24319599.html [NC]
+
+RewriteRule ^private-house-360$ page24321554.html [NC]
+RewriteRule ^private-house-360/$ page24321554.html [NC]
+
+RewriteRule ^private-house-160-1$ page24321782.html [NC]
+RewriteRule ^private-house-160-1/$ page24321782.html [NC]
+
+RewriteRule ^private-house-interior-100$ page24647610.html [NC]
+RewriteRule ^private-house-interior-100/$ page24647610.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3334-3439-4365-b435-316635363462/favicon.ico [R=302,L]
+
